@@ -1,0 +1,108 @@
+<html>
+<head>
+    <title>
+        Hotel Booking!
+    </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bdf608d129.js" crossorigin="anonymous"></script>
+ 
+</head>
+
+<body>
+    <section class="hero-section">
+        <div class="hero-txt">
+            <h1>Welcome to Guna Hotels</h1>
+            <p>We provide awsome feacalities at affordable prices. We are proud to share with you that
+                our hotel is best among all in this Vijayawada city..!
+            </p>
+            <button class="book-button">Book</button>
+        </div>
+    </section>
+
+    <h1 class="about-heading">About us</h1>
+    <section class="about-section">
+        
+        <div class="about-us">
+            <p>Over 900,000 Hotels Worldwide. Book Now, Pay When You Stay. Apartments. Save 10% with Genius. Great Availability. Book Your Car Rental. 
+                We speak your language. Special Offers. Low Rates. Great Choice. 24/7 Customer Service....</p>
+            <p>Over 900,000 Hotels Worldwide. Book Now, Pay When You Stay. Apartments. Save 10% with Genius. Great Availability. 
+                Book Your Car Rental. We speak your language. Special Offers. Low Rates. Great Choice. 24/7 Customer Service....</p>
+            <button class="know-button">Know More</button>
+        </div>
+
+        <div class="amenities">
+            <h3>Amenities we have: </h3>
+                <ul>
+                    <li><i class="fa-solid fa-dumbbell fa-beat"></i>Gym</li>
+                    <li><i class="fa-duotone fa-utensils"></i></i>Food</li>
+                    <li><i class="fa-solid fa-wifi fa-beat"></i>high speed internet</li>
+                    <li><i class="fa-solid fa-lock fa-beat"></i>security</li>
+                    <li><i class="fa-solid fa-person-swimming fa-beat"></i>swimming pool</li>
+                </ul>
+        </div>
+    </section>
+    <h1 class="room-heading">Types of rooms available..!</h1>
+    <section class="room-type-container">
+        <div class="room-list">
+            <h3>Single room</h3>
+            <p>A single room is a room intended for one person to stay in. 
+                Choose from twin or single rooms, all of which are comfortable. Each guest has her own single room, or shares a double room.</p>
+            <h3>Family room</h3>
+            <p>A family room is an informal, all-purpose room in a house. The family room is designed to be a place where family and guests
+                 gather for group recreation like talking, reading, watching TV, and other family activities.</p>
+            <h3>Duplex room</h3>
+            <p>It's a two-level room. It consists of at least one bedroom on one floor and a living room or bedroom on the second floor. 
+                You can also find more bedrooms on any of the floors</p>
+        </div>
+
+        <div class="room-images"></div>
+    </section>
+
+    <div class="help-button">
+        <h4>Need Help?</h4>
+    </div>
+
+    <h2 class="form-heading">Fill form to book a room..!</h2>
+    <section class="form-container">
+        <form>
+            <div class="form-group">
+                <label for="name">Enter full name</label>
+                <br/>
+                <input type="text" id="name" required placeholder="Name" autofocus>
+            </div>
+            <div class="form-group">
+                <label for="email">Enter email id</label>
+                <br/>
+                <input type="email" id="email" required placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="date">Date</label>
+                <br/>
+                <input type="date" id="date" required placeholder="Date">
+            </div>
+            <div class="form-group">
+                <label for="number">contact</label>
+                <br/>
+                <input type="number" id="number" required placeholder="mobile number">
+            </div>
+            <div class="form-group">
+                <label for="room">Select room type</label>
+                <br/>
+                <select name="room-type" id="room-type">
+                    <option value="" >Select room type..!</option>
+                    <option value="Single">Single room</option>
+                    <option value="family">Family room</option>
+                    <option value="duplex">Duplex room</option>
+            </div>
+            <br/>
+            <div class="submit-button">
+                <input type="submit" placeholder="Submit">
+            </div>
+            <div class="reset-button">
+                <input type="reset" placeholder="Reset">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
